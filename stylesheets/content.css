@@ -1,0 +1,69 @@
+.smyles {
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    width: 160px;
+    height: 160px;
+    background: url(../img/firstfirst.png);
+    animation: first 3s steps(1) infinite;
+    margin-right: 100px;
+}
+
+.first:hover {
+    animation-play-state: paused;
+    background: url(../img/firstsecond.png) no-repeat;
+}
+
+.second {
+    width: 160px;
+    height: 160px;
+    background: url(../img/secondfirst.png);
+    animation: second 3s steps(1) infinite;
+    margin-right: 100px;
+}
+
+.second:hover {
+    animation-play-state: paused;
+    background: url(../img/secondsecond.png) no-repeat;
+}
+
+.third {
+    width: 160px;
+    height: 160px;
+    background: url(../img/thirdfirst.png);
+    animation: third 3s steps(1) infinite;
+    margin-right: 100px;
+}
+
+.third:hover {
+    animation-play-state: paused;
+    background: url(../img/thirdsecond.png) no-repeat;
+}
+
+.fourth {
+    width: 160px;
+    height: 160px;
+    background: url(../img/fourthfirst.png);
+    animation: fourth 3s steps(1) infinite;
+    margin-right: 100px;
+}
+
+.fourth:hover {
+    animation-play-state: paused;
+    background: url(../img/fourthsecond.png) no-repeat;
+}
+
+.fifth {
+    width: 160px;
+    height: 160px;
+    background: url(../img/fifthfirst.png);
+    animation: fifth 3s steps(1) infinite;
+    margin-right: 100px;
+}
+
+.fifth:hover {
+    animation-play-state: paused;
+    background: url(../img/fifthsecond.png) no-repeat;
+}
